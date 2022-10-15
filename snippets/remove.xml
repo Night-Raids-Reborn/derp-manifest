@@ -3,6 +3,7 @@
 
   <!-- Rootdir -->
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/libcore" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
@@ -68,6 +69,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -116,6 +118,7 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
